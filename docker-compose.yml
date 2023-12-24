@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  webtools:
+    build: .
+    image: webtools-test
+    ports:
+      - '3000:3000'
